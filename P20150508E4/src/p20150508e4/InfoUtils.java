@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 
  */
 package p20150508e4;
@@ -19,7 +19,8 @@ public class InfoUtils {
         Long magnitud = 0L; // para la parte numérica
         String unidades = "";  // para la unidad (K, M...)
         char c; // para ir cortando uno a uno el dato de entrada        
-        // mientras que memoria contenga algo y su primer carácter contenga un dígito
+        // David Was Here
+	// ezreal es una mierda
         while ((memoria.length()>0) && (Character.isDigit(c = memoria.charAt(0)))) {
             // añadimos el caracter a la magintud y lo retiramos del dato de entrada
             magnitud = (magnitud*10)+Integer.parseInt(Character.toString(c));
